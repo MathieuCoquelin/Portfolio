@@ -1,0 +1,7 @@
+.sidebar {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+    flex: 1.5;
+}

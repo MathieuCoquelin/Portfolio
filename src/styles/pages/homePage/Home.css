@@ -1,0 +1,24 @@
+.name{
+    font-size: 8em;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    -webkit-text-stroke: 4px black;
+}
+
+.code{
+    width: 60%;
+    margin: 2em;
+    align-self: right;
+    border-radius:1em;    
+    /* border: 4px solid black; */
+}
+ 
+.photo{
+    width: 26%;
+    margin: 2em;
+    align-self: left;
+    border-radius:1em;    
+    /* border: 4px solid black; */
+}
