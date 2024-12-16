@@ -1,25 +1,33 @@
-import { Outlet, Link, BrowserRouter } from "react-router-dom";
+import { Outlet, BrowserRouter, NavLink, Link} from "react-router-dom";
 import '../../styles/pages/Navigation.css';
-import React from "react";
+import React, {useState} from "react";
 
 function Navigation () {
+    const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
         <nav>
-            <ul className="navMenu">
+            <div className='menu' onClick = {() => {
+                setMenuOpen(!menuOpen);
+            }}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul className={menuOpen ? "open" : ""}>
                 <li>
-                    <Link to="/">Home</Link>
+                    <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <Link to="/skills">Skills</Link>
+                    <NavLink to="/skills">Skills</NavLink>
                 </li>
             </ul>
         </nav>
-        <Outlet />
-    </BrowserRouter>
+        // <Outlet />
+    /* </BrowserRouter> */
   )
 };
 

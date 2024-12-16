@@ -5,17 +5,17 @@ import Header from './Header'
 import Footer from './Footer'
 
 function Layout (){ return (
-    <div>
-        <body className="body">
-            <Header/>
-            <main className="main">
-                <Sidebar/>
-                <Card/>
-                <Sidebar/>
-            </main>
-            <Footer/>
-        </body>
+
+    <div className="body">
+        <Header/>
+        <main className="main">
+            <Sidebar/>
+            <Card/>
+            <Sidebar/>
+        </main>
+        <Footer/>
     </div>
+    
 )}
 
 export default Layout

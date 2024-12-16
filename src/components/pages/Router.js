@@ -6,14 +6,14 @@ import NotFound from "./notFoundPage/NotFound";
 
 function Router() {
     return (
-        <BrowserRouter>
+        // <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="about" element={<About />} />
                 <Route path="skills" element={<Skills />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
-        </BrowserRouter>
+        /* </BrowserRouter> */
     );
 }
 
