@@ -1,7 +1,6 @@
 .header {
   background-color: #870000;
-  height: 10em;
+  height: 9em;
   box-sizing: border-box;
-  padding: 1em;
-  /* text-align: center; */
+  padding: 0.5em;
 }
