@@ -1,11 +1,10 @@
-import { Outlet, BrowserRouter, NavLink, Link} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../../styles/pages/Navigation.css';
 import React, {useState} from "react";
 
 function Navigation () {
     const [menuOpen, setMenuOpen] = useState(false)
   return (
-    // <BrowserRouter>
         <nav>
             <div className='menu' onClick = {() => {
                 setMenuOpen(!menuOpen);
@@ -26,8 +25,6 @@ function Navigation () {
                 </li>
             </ul>
         </nav>
-        // <Outlet />
-    /* </BrowserRouter> */
   )
 };
 
