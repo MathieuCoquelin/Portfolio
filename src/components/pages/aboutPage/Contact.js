@@ -11,7 +11,7 @@ function Contact()
                         <b>Name:</b> COQUELIN Mathieu
                     </li>
                     <li>
-                        <b>Job:</b> Ingineer software develpment
+                        <b>Job:</b> Software Develppment Ingineer
                     </li>
                     <li>
                         <b>Tel:</b> 06 37 33 44 75
