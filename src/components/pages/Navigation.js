@@ -7,11 +7,11 @@ function Navigation () {
   return (
         <nav>
             <div className='menu' onClick = {() => {
-                setMenuOpen(!menuOpen);
-            }}>
+                    setMenuOpen(!menuOpen);
+                }}>
                 <span></span>
                 <span></span>
-                <span></span>
+                <span className="thirdDiv"></span>
             </div>
             <ul className={menuOpen ? "open" : ""}>
                 <li>
