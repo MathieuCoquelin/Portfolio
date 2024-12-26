@@ -21,6 +21,7 @@
 .cLogo{
     width: 20%;
     height: auto;
+    margin-left: 1%;
 }
 
 .cppLogo{
@@ -37,7 +38,7 @@
 
 .reactLogo{
     margin: 2%;
-    margin-left: 5%;
+    margin-left: -1%;
     width: 18%;
     height: auto;
 }
