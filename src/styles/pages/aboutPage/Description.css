@@ -10,8 +10,8 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2.5%;
-    border-radius: 1rem; 
-    font-size: 1.5rem;
+    border-radius: 4%; 
+    font-size: 150%; /* resize: 75%*/
 }
 .descriptionPerso
 {
@@ -24,14 +24,14 @@
     padding-top: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
-    border-radius: 1rem;
-    font-size: 1.5rem;
+    border-radius: 4%; 
+    font-size: 150%;/* resize: 75%*/
 }
 
 
 .descriptionArea{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;/* resize: column*/
     margin: 0%;
     margin-top: 0.5%;
     margin-bottom: 1%;
