@@ -40,3 +40,146 @@
     height: auto;
     text-align: justify;
 }
+
+/* Smartphone */
+@media (max-width: 480px)
+{
+    .descriptionPro
+    {
+        background-color: #f4d09d;
+        color: black;
+        border: 4px solid black;
+        margin: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+        border-radius: 4%; 
+        font-size: 75%; /* resize: 75%*/
+    }
+    .descriptionPerso
+    {
+        background-color: #f4d09d;
+        color: black;
+        border: 4px solid black;
+        margin: 3%;
+        margin-left: 5%;
+        margin-right: 4.5%;
+        padding-top: 2.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 4%; 
+        font-size: 75%;/* resize: 75%*/
+    }
+
+
+    .descriptionArea{
+        display: flex;
+        flex-direction: column;/* resize: column*/
+        margin: 0%;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+    }
+
+}
+
+/* Pad */
+@media (min-width: 480px)and (max-width: 1000px)
+{
+    .descriptionPro
+    {
+        background-color: #f4d09d;
+        color: black;
+        border: 4px solid black;
+        margin: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+        border-radius: 4%; 
+        font-size: 100%; 
+    }
+    .descriptionPerso
+    {
+        background-color: #f4d09d;
+        color: black;
+        border: 4px solid black;
+        margin: 3%;
+        margin-left: 5%;
+        margin-right: 4.5%;
+        padding-top: 2.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 4%; 
+        font-size: 100%;
+    }
+
+
+    .descriptionArea{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+    }
+
+}
+
+/*small resolution PC (ex: 16") */
+@media (min-width: 1000px)and (max-width: 2000px)
+{
+    .descriptionPro
+    {
+        background-color: #f4d09d;
+        color: black;
+        border: 4px solid black;
+        margin: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+        border-radius: 4%; 
+        font-size: 100%; 
+    }
+    .descriptionPerso
+    {
+        background-color: #f4d09d;
+        color: black;
+        border: 4px solid black;
+        margin: 3%;
+        margin-left: 5%;
+        margin-right: 4.5%;
+        padding-top: 2.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 4%; 
+        font-size: 100%;
+    }
+
+
+    .descriptionArea{
+        display: flex;
+        flex-direction: row;
+        margin: 0%;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+    }
+}
