@@ -11,7 +11,7 @@
     padding-right: 5%;
     padding-top: 2.5%;
     border-radius: 4%; 
-    font-size: 150%; /* resize: 75%*/
+    font-size: 150%; 
 }
 .descriptionPerso
 {
@@ -25,13 +25,13 @@
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 4%; 
-    font-size: 150%;/* resize: 75%*/
+    font-size: 150%;
 }
 
 
 .descriptionArea{
     display: flex;
-    flex-direction: row;/* resize: column*/
+    flex-direction: row;
     margin: 0%;
     margin-top: 0.5%;
     margin-bottom: 1%;
@@ -57,7 +57,7 @@
         padding-right: 5%;
         padding-top: 2.5%;
         border-radius: 4%; 
-        font-size: 75%; /* resize: 75%*/
+        font-size: 75%; 
     }
     .descriptionPerso
     {
@@ -71,13 +71,13 @@
         padding-left: 5%;
         padding-right: 5%;
         border-radius: 4%; 
-        font-size: 75%;/* resize: 75%*/
+        font-size: 75%;
     }
 
 
     .descriptionArea{
         display: flex;
-        flex-direction: column;/* resize: column*/
+        flex-direction: column;
         margin: 0%;
         margin-top: 0.5%;
         margin-bottom: 1%;
