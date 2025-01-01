@@ -86,11 +86,7 @@
     .skills .rowTop{
         display: flex;
         flex-direction: column;
-        margin:0%;
-        margin-right:6%;
-        margin-left: 5%;
-        margin-top: 4%;
-        margin-bottom: 4%;
+        margin: 4% 6% 4% 5%;
         justify-content: center;
         width: auto;
     }
@@ -98,11 +94,7 @@
     .skills .rowBottom{
         display: flex;
         flex-direction: column; 
-        margin:0%;
-        margin-top: 4%;
-        margin-bottom: 4%;
-        margin-right:5%;
-        margin-left: 6%;
+        margin: 4% 5% 4% 6%;
         justify-content: center;
         padding-right: 13%;
         width: auto;
@@ -195,7 +187,6 @@
         flex-direction: row;
         margin:2%;
         justify-content: center;
-        background-color: red;
     }
     
     .skills .rowBottom{
@@ -205,7 +196,6 @@
         margin-top: 3.5%; 
         margin-bottom: 3.9%;
         justify-content: center;
-        background-color: blue;
     }
 
     .reactLogo{
