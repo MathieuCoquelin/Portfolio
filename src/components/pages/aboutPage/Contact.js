@@ -8,16 +8,16 @@ function Contact()
             <div className='contact'>
                 <ul>
                     <li>
-                        <b>Name:</b> COQUELIN Mathieu
+                        <b className="title">Name:</b> COQUELIN Mathieu
                     </li>
                     <li>
-                        <b>Job:</b> Software Develppment Ingineer
+                        <b className="title">Job:</b> Software Develppment Ingineer
                     </li>
                     <li>
-                        <b>Tel:</b> 06 37 33 44 75
+                        <b className="title">Tel:</b> 06 37 33 44 75
                     </li>
                     <li>
-                        <b>Mail:</b> mathieu.coquelin@oulook.fr
+                        <b className="title">Mail:</b> mathieu.coquelin@oulook.fr
                     </li>
                 </ul>
             </div>
