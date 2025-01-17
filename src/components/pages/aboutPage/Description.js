@@ -6,12 +6,12 @@ function Description()
         <div className='descriptionArea'>
             <div className='descriptionPro'>
                 <p>
-                    <b>Professional</b>
+                    <b className="title">Professional</b>
                 </p>
                <p>
                     Graduate of the engineering school,
                     ESIEA, since 2023, it's been 
-                    4 years now that I have
+                    3 years now that I have
                     specialised in software
                     development. 
                </p>
@@ -23,7 +23,7 @@ function Description()
             </div>
             <div className='descriptionPerso'>
                 <p>
-                    <b>Personnal</b>
+                    <b className="title">Personnal</b>
                 </p>
                 <p>
                     For several years I've been

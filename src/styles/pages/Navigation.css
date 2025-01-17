@@ -1,5 +1,5 @@
 .active{
-    background-color: black;
+    background-color: #207C12;
 }
 
 nav{
@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #7F7F7F;
+    background-color: #7A9015;
 }
 
 nav .menu{
